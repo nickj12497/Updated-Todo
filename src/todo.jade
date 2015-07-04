@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    |     
+    title TodoMVC
+    |     
+    script(type='text/javascript', src='https://cdn.firebase.com/js/client/2.2.7/firebase.js')
+    |     
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.0-beta5/vue.js')
+    |     
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js')
+    |     
+    script(type='text/javascript', src='55a12692403990a47036.js')
+  |   
+  body
+    #todo
+      h1 TO DO List
+      |       
+      p
+        | You can use the "Add" button or press the "Enter" key to add a new item to your to do list. 
+        br
+        |         Once you've completed that item, click it to cross it out, then click the "Clear Completed" button to remove it from the list.
+      |       
+      input#newTodo(type='text', maxlength='50', v-on="keypress: addTo() | key 'enter'", placeholder='Add a new item...', autocomplete='off')
+      |       
+      button(v-on='click: addTo()') Add
+      br
+      |       
+      button(v-on='click: clearCompleted()') Clear Completed
+      |       
+      ul
+        li(v-repeat='todos', v-on='click: done = !done', v-class='done: done') {{content}}
