@@ -5,5 +5,5 @@ var gulp = require('gulp');
 gulp.task('default', function() {
   return gulp.src('todo.js')
     .pipe(webpack())
-    .pipe(gulp.dest('C:/Users/Nick/Documents/TodoExperiment/dist/'));
+    .pipe(gulp.dest('dist/'));
 });
