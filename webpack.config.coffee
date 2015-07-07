@@ -1,12 +1,12 @@
 webpack = require('webpack')
 
-module.exports = {
-    entry: "src/todo",
+module.exports =
+    entry: 'src/todo',
     output: {
         path: './dist',
         filename: "todo.js"
     },
-    module: {
+    module:
         loaders: [
             test: /\.css$/, loader: "style!css"
             ,
@@ -14,9 +14,7 @@ module.exports = {
             ,
              test: /\.coffee$/, loader: 'coffee'
             ,
-            test: /\.json$/, loader: 'html?name=assets/data/[name].[ext]' }
+            test: /\.json$/, loader: 'html?name=assets/data/[name].[ext]'
             ,
             test: /\.sass$/, loader: 'sass'
         ]
-    }
-};
