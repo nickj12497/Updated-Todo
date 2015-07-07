@@ -4,7 +4,7 @@ module.exports = {
     entry: "src/todo",
     output: {
         path: './dist',
-        filename: "bundle.js"
+        filename: "todo.js"
     },
     module: {
         loaders: [
