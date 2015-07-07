@@ -1,6 +1,6 @@
 # Dependencies
 gulp = require('gulp')
-webpack = require('gulp-webpack')
+webpack = require('webpack')
 jade = require('gulp-jade')
 
 webpackConfig = require './webpack.config.coffee'
