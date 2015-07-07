@@ -1,3 +1,5 @@
+require './todo.sass'
+
 document.addEventListener 'DOMContentLoaded', ->
   'use strict'
   ref = new Firebase 'https://amber-fire-5590.firebaseio.com'
