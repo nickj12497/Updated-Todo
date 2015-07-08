@@ -11,11 +11,11 @@ document.addEventListener 'DOMContentLoaded', ->
     } ]
     methods:
       addTo: ->
-        if document.getElementById('newTodo').value isnt ''
-            ref.push
-              done: false
-              content: document.getElementById('newTodo').value
-            document.getElementById('newTodo').value = ''
+        if document.getElementById('newTodo').value.trim() isnt ''
+          ref.push
+            done: false
+            content: document.getElementById('newTodo').value
+          document.getElementById('newTodo').value = ''
       clearCompleted: ->
         _.each todo.$get('todos'), (t, todoKey) ->
           if t and t.done

@@ -2,6 +2,7 @@
 gulp = require('gulp')
 webpack = require('webpack')
 jade = require('gulp-jade')
+gutil = require('gulp-util')
 
 webpackConfig = require './webpack.config.coffee'
 
@@ -28,12 +29,17 @@ gulp.task 'jade', (done) ->
 gulp.task 'webpack', (done) ->
   webpack webpackConfig, (error, stats) ->
     if error
-      console.log "[ERROR] ", error
+      throw new gutil.PluginError 'webpack', error
+
+    gutil.log '[webpack]', stats.toString()
 
   done()
 
 
 ###
+
+WOAH
+
 So you're not ggetting anything different because all you're doing is taking the input and putting it into ./dist.
 
 If you look at my code, you'll see after gulp.src is a line like this:
