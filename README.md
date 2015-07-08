@@ -9,6 +9,3 @@ A simple TodoMVC using Coffeescript as the main programming language, gulp and W
   - gulp build will compile all necessary files (once).
   - gulp watch will compile all necessary files every time a change is made.
 
-#**Server**
-
-   - gulp serve will serve the files in ./dist on localhost. (Usually port 3000, unless there are conflicts.)
