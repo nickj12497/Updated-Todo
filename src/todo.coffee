@@ -13,8 +13,8 @@ document.addEventListener 'DOMContentLoaded', ->
       addTo: ->
         if document.getElementById('newTodo').value isnt ''
             ref.push
-            done: false
-            content: document.getElementById('newTodo').value
+              done: false
+              content: document.getElementById('newTodo').value
             document.getElementById('newTodo').value = ''
       clearCompleted: ->
         _.each todo.$get('todos'), (t, todoKey) ->
