@@ -19,7 +19,7 @@ gulp.task 'build', ['webpack', 'jade']
 
 # Jade
 gulp.task 'jade', (done) ->
-  gulp.src './src/*.jade', base: 'src'
+  gulp.src './src/**/*.jade', base: 'src'
     .pipe jade {}
     .pipe gulp.dest './dist'
 
