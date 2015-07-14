@@ -17,12 +17,12 @@ document.addEventListener 'DOMContentLoaded', ->
       # Adds todo to list
       #
       addTo: ->
-        newTodo = document.getElementById('newTodo').value 
-        if newTodo.trim() isnt ''
+        newTodo = document.getElementById('newTodo')
+        if newTodo.value.trim() isnt ''
           ref.push
             done: false
-            content: newTodo
-          newTodo = ''
+            content: newTodo.value
+          newTodo.value = ''
       #
       # Removes all the todos that are done.
       #
