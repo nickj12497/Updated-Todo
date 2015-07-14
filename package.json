@@ -1,18 +1,36 @@
 {
-  "devDependencies": {
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.9.3",
-    "css-loader": "^0.15.2",
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.0.1",
-    "gulp-util": "^3.0.6",
-    "gulp-webpack": "^1.5.0",
-    "jade": "^1.11.0",
-    "jade-loader": "^0.7.1",
-    "node-libs-browser": "^0.5.2",
-    "node-sass": "^3.2.0",
-    "sass-loader": "^1.0.2",
-    "style-loader": "^0.12.3",
-    "webpack": "^1.10.1"
-  }
+	"name": "Updated-Todo",
+	"version": "0.0.1",
 }
+
+{ "devDependencies": {
+    
+"coffee-loader": "^0.7.2",
+ 
+"coffee-script": "^1.9.3",
+ 
+"css-loader": "^0.15.2",
+ 
+"gulp": "^3.9.0",
+ 
+"gulp-jade": "^1.0.1",
+ 
+"gulp-util": "^3.0.6",
+ 
+"gulp-webpack": "^1.5.0",
+ 
+"jade": "^1.11.0",
+ 
+"jade-loader": "^0.7.1",
+ 
+"node-libs-browser": "^0.5.2",
+ 
+"node-sass": "^3.2.0",
+ 
+"sass-loader": "^1.0.2",
+ 
+"style-loader": "^0.12.3",
+ 
+"webpack": "^1.10.1"
+  
+} },
