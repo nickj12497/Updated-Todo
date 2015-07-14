@@ -13,5 +13,5 @@ A simple TodoMVC using Coffeescript as the main programming language, gulp and W
 
 #Viewing
 
-- Open the new 'dist' folder
-- Open 'todo.html' in your preferred browser
+- Open the new `dist` folder
+- Open `todo.html` in your preferred browser
