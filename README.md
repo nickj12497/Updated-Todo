@@ -1,17 +1,17 @@
-#VUE.JS, GULP, & WEBPACK TODOMVC
+#vue.js, gulp, & webpack todomvc
 
-A SIMPLE TODOMVC USING COFFEESCRIPT AS THE MAIN PROGRAMMING LANGUAGE, GULP AND WEBPACK AS THE BUILD TOOLS,VUE.JS AS THE MVC FRAMEWORK, AND FIREBASE AS THE PERSISTANT DATA STORE.
+a simple todomvc using coffeescript as the main programming language, gulp and webpack as the build tools,vue.js as the mvc framework, and firebase as the persistant data store.
 
-#INSTALLATION
+#installation
 
-- `NPM INSTALL` WILL INSTALL ALL NECESSARY DEPENDENCIES
+- `npm install` will install all necessary dependencies
 
-#BUILDING
+#building
 
-- `GULP BUILD` WILL COMPILE ALL NECESSARY FILES (ONCE).
-- `GULP WATCH` WILL COMPILE ALL NECESSARY FILES EVERY TIME A CHANGE IS MADE.
+- `gulp build` will compile all necessary files (once).
+- `gulp watch` will compile all necessary files every time a change is made.
 
-#VIEWING
+#viewing
 
-- OPEN THE NEW `DIST` FOLDER
-- OPEN `TODO.HTML` IN YOUR PREFERRED BROWSER
+- open the new `dist` folder
+- open `todo.html` in your preferred browser
